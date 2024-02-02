@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; /* Couleur de fond */
+}
+
+#formulaire {
+    background-color: #fff; /* Couleur du formulaire */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333; /* Couleur du titre */
+}
+
+label {
+    color: #555; /* Couleur des libellés */
+}
+
+input {
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ff8000; /* Couleur du bouton de soumission */
+    color: #fff; /* Couleur du texte du bouton de soumission */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffb700; /* Couleur du bouton de soumission au survol */
+}
